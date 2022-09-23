@@ -1,0 +1,63 @@
+This is the Product Preview Card website by MSameer192
+
+$ git config --global user.name MSameer192
+
+$ git config --global user.email sameer192.official@gmail.com
+
+$ touch .gitignore
+
+$ git init
+
+$ git add README.md (ignore)
+
+$ git add . (CodeWithHarry)  for 2nd time
+
+$ git commit -m "first commit" for 2nd time
+ 
+$ git status (CodewithHarry) just to see for 2nd time
+
+$ git branch -M main (ignore)
+
+$ git remote add origin git@github.com:MSameer192/ProdcutPreviewCard.git
+
+$ git push -u origin main (ignore)
+
+$ git push origin master for 2nd time
+
+----------------for private need ssh key--------------------- 
+
+1. git hub id
+
+2. setting 
+
+3. Add new SSH Keys 
+
+	A- Titel # MSameer192 Personal Computer
+
+	B- on google generate SSH key git hub
+		
+	i- https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account		
+	ii- Past in cmd  --- $ ssh-keygen -t rsa -b 4096 -C "sameer192.official@gmail.com"
+	enter
+	enter
+
+4. cat (path like) /c/Users/123/.ssh/id_rsa.pub
+
+5. ssh key rcvd
+ 1. ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACZgMc790O5jMpZyiIMAazfBMxaXsp5Xu7CfFiSEC8sF4eZgp1JRwcse0iYFBjfGhGInK9JJFX524APebYd8bMpO2NvZUo+sRUhOaHHlEwC4TSATKruCDao/NN04Y0m6zTarHzOOsof3if//KTqkjbovHbokEAbcmZz8di8T0aQu37TPRx2XjR+lFLFAbMs5shOMA9IGy98ExoQf/ZSeuj/08U6xMifp4vOlAMSfHEzeNs21uRgQC1hF+RpiryET7b3pg2ZgIcQI108Bc1V+djU3FQ/9AGPZkHvsnB2mMkJKq9VIgqT+gClIu5vlp8O1EEemb9v6LwGbUe9faTd9H32734wan3bMxzYFrl26yT0TYL/ENpnAFRIfoTj4aMejtSdNH7jAU4nrp7MX305mnCng0lbOv/lbypcmPfrt4DYJLbT6sY4V2lUuNrcQpcp4UHm1h7IVozyL1wxymI7OzN4JgCi9UkXVq7CpHk7N54c05OLFxTcI+qtXvlnQTsXpBjhj6ga4Xn8X4B/LVsn8jg3g8+GowJep7sVsz3JqvmHBmBsl+/72CyvoMSpyfUiuvwdHoyqwPkA2qXPqGFPV5cwV+4Y73iApAY8JMRsrH9SiWLzTcMxOIcxpkBtH05z+BfbsgtQ/dWNSuu3t+INYDIgoAVnr12kESaGVkHtx52tvXYhqDL2EjWovLlyclNWKE56MTktc7IE2LjzfocRDoJTP+GiVo71/mt+VX+JiqWND7AHaQJrc3wPb4YvROEUgq/QDQg0rrf4uSvsA8bbHYyMGa9dhQcotFs00+1mB/Vuf+0pdH3jNHz sameer192.offical@gmail,com
+ 2. past in git hub account 
+
+----------------for private need ssh key end end ---------------------
+
+again start 
+
+$ git push origin master
+  
+
+for undo
+
+git reset --soft HEAD~2
+git reset --soft HEAD~
+git checkout master
+	
+
